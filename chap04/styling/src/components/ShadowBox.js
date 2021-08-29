@@ -8,8 +8,8 @@ export default () => {
 const styles = StyleSheet.create({
     shadow: {
         backgroundColor: '#fff',
-        width: 200,
-        height: 200,
+        width: 100,
+        height: 100,
         ...Platform.select({
             ios: {
                 shadowColor: '#000',
